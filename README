@@ -1,0 +1,8 @@
+The documentation for Tango is in plain text files and can be viewed using
+any text file viewer.
+
+It uses ReST (reStructuredText) [1], and the Sphinx documentation system [2].
+This allows it to be built into other forms for easier viewing and browsing.
+
+[1] http://docutils.sourceforge.net/rst.html
+[2] http://sphinx-doc.org/
