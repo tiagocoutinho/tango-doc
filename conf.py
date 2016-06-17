@@ -34,9 +34,10 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
-    'sphinx.ext.imgmath',
     'sphinx.ext.viewcode',
+    'rst2pdf.pdfbuilder'
 ]
+#    'sphinx.ext.imgmath',
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -294,3 +295,10 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
+
+pdf_documents = [('index', u'TangoDoc', u'TANGO Controls', u'TANGO Controls Documentation Team'),]
+
+# index - master document
+# rst2pdf - name of the generated pdf
+# Sample rst2pdf doc - title of the pdf
+# Your Name - author name in the pdf
