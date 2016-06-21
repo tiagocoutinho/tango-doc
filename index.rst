@@ -3,10 +3,6 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. toctree::
-   :maxdepth: 2
-
-
 =========================================
 Welcome to Tango Control's documentation!
 =========================================
@@ -25,12 +21,20 @@ Or are you already a developer?
 
 OK. Lets get started
 
-* :ref:`Getting Started <start>`
-* :ref:`Tutorials and Examples <howto>`
-* :ref:`Architecture <arch>`
-* :ref:`API <api>`
-* :ref:`Tips and Tricks <tips>`
-* :ref:`Frequently Asked Questions (FAQ) <faq>`
+Contents
+--------
+
+.. toctree::
+   :maxdepth: 2
+
+   quicktour
+   starting
+   howto
+   arch
+   api
+   tips
+   faq
+	
 
 
 Indices and tables

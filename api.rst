@@ -1,10 +1,6 @@
 
 .. _api:
 
-.. toctree::
-   :maxdepth: 2
-
-
 API
 ===
 

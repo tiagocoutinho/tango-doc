@@ -4,14 +4,28 @@
 Quick tour
 ==========
 
-Who
----
+What is Tango
+-------------
+TANGO Controls is a scalable, object oriented software toolkit for connecting hardware and software together.
+The hardware can be on the same computer or distributed over a number of computers interconnected on a network.
+
+.. image:: _static/tango1.png
+
+It is a mature and stable piece of software which is used by many sites from small institutes to large complexes that
+run highly complicated accelerators where experiments run 24 hours a day, seven days a week.
+It is free, Open Source and provides full support for 3 programming languages - C++, Python and Java
+It is ideal for small and large installations.
+It provides full support for 3 programming languages - C++, Python and Java
+
+
+Who uses Tango
+--------------
 The TANGO Controls community is a consortium of institutes and industrial partners headed by an executive Steering Committee.
 The Steering Committee makes strategic decisions about core developments in the TANGO collaboration.
 There is one representative from each institute who has signed the Tango Controls Collaboration Contract.
 The representative is a person who has the highest ranking in the institutes’s hierarchy and has sufficient technical knowledge about TANGO. 
 The steering committee also decides upon the allocation of resources for developing software for Tango.
-To ensure that the right decisions are made and match those of the user community, advice must be sought by the committee from their respective users and developers on a regular basis.
+To ensure that the right decisions are made and match those of the user community, advice is sought by the committee from their respective users and developers on a regular basis.
 
 There are 2 types of members of the  TANGO Controls Steering Committee Members:
 
@@ -22,23 +36,14 @@ There are 2 types of members of the  TANGO Controls Steering Committee Members:
 Both members normally use TANGO and write and share TANGO device classes with the community.
 
 
-What
-----
-TANGO Controls is an object oriented software toolkit for connecting hardware and software together.
-The hardware can be on the same computer or distributed over a number of computers interconnected on a network.
-It is a mature and stable piece of software which is used by many sites to run highly complicated accelerator complexes and experiments 24 hours a day, seven days a week.
-It is free, Open Source and provides full support for 3 programming languages - C++, Python and Java
-It is ideal for small and large installations.
-It provides full support for 3 programming languages - C++, Python and Java
-
-When
-----
-TANGO started at the ESRF in 1999 but was soon joined in 2000 by the controls team from the Soleil Synchrotron.
+When was it developed
+---------------------
+TANGO development started at the ESRF in 1999 as a successor to TACO but was joined in 2000 by the controls team from the Soleil Synchrotron.
 The two institutes co-developed the first versions of TANGO and were then joined by Elettra, ALBA, and DESY.
-The community has grown quickly and today counts 39 sites.
+Since then the community has grown quickly and today counts 39 sites.
 
-Where 
------
+Where is it deployed
+--------------------
 
     * ESRF
     * SOLEIL
@@ -81,8 +86,8 @@ Where
     * University of Szeged
     * Webu
 
-Why
----
+Why choose Tango
+----------------
 TANGO is a mature and highly reliable product. It provides very fast communication between clients and hardware devices.
 These devices can be on the same computer or distributed over a number of computers interconnected on a network.
 Programming support is available for both clients and servers written in C++, Java or Python.
@@ -96,8 +101,8 @@ TANGO comes with ready to use graphical applications that allow you to graphical
 
 
 
-Fundamentals
-------------
+Tango Fundamentals
+------------------
 
 Before you begin there are some fundamental TANGO concepts that you should be aware of.
 
